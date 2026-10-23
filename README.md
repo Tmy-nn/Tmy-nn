@@ -12,8 +12,10 @@ I turn business workflows into working software: clarify the process, build a pi
 | --- | --- | --- |
 | **[StockFlow](https://github.com/Tmy-nn/stockflow)** | [Live demo](https://stockflow.ai-knowledge-board.workers.dev/) | Approval before inventory changes, isolated demo workspaces, duplicate protection, conflict detection, and audit history. Cloudflare Workers + D1. |
 | **[Word Lens](https://github.com/Tmy-nn/word-lens)** | [Live demo](https://word-lens.ai-knowledge-board.workers.dev/) | Browser-side object detection, explicit object selection, multilingual vocabulary, and a real sample scan before camera access. |
+| **[CSV Bridge](https://github.com/Tmy-nn/csv-bridge)** | [Live demo](https://csv-bridge.ai-knowledge-board.workers.dev/) | Browser-only CSV mapping, validation and normalized export. Local files stay in the browser. |
+| **[Japan Pilot Desk](https://github.com/Tmy-nn/japan-pilot-desk)** | [Live demo](https://japan-pilot-desk.ai-knowledge-board.workers.dev/) | Rule-based pilot planning: implementation requirements, acceptance criteria and open questions. |
 
-These are independent portfolio demos. StockFlow uses fictional inventory and simulated reviewer actions; it is not connected to a customer system. Word Lens detects a limited set of object categories and can make mistakes.
+These are independent portfolio demos. StockFlow uses fictional inventory and simulated reviewer actions; it is not connected to a customer system. Word Lens detects a limited set of object categories and can make mistakes. CSV Bridge is a bounded local preparation tool; Japan Pilot Desk generates a rule-based draft for review, not a compliance assessment.
 
 ## How I work
 
